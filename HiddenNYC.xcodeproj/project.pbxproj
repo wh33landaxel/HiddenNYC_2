@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9299906416BDFDC7001E3449 /* empireState.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9299906316BDFDC7001E3449 /* empireState.jpg */; };
+		A60A513F169F70C3008020EA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60A513E169F70C3008020EA /* DetailViewController.m */; };
+		A652C4BE16A35299000312FA /* HNYCSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A652C4BD16A35299000312FA /* HNYCSearchVC.m */; };
+		A65B32D01697A05500B08910 /* HNYCDescriptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B32CF1697A05500B08910 /* HNYCDescriptionVC.m */; };
+		A67397C0169BC6F000F6FBAD /* 0_CKL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397B9169BC6F000F6FBAD /* 0_CKL.jpg */; };
+		A67397C1169BC6F000F6FBAD /* 1_CKL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397BA169BC6F000F6FBAD /* 1_CKL.jpg */; };
+		A67397C2169BC6F000F6FBAD /* 0_FT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397BB169BC6F000F6FBAD /* 0_FT.jpg */; };
+		A67397C3169BC6F000F6FBAD /* 1_FT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397BC169BC6F000F6FBAD /* 1_FT.jpg */; };
+		A67397C4169BC6F000F6FBAD /* 2_FT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397BD169BC6F000F6FBAD /* 2_FT.jpg */; };
+		A67397C5169BC6F000F6FBAD /* 0_WG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397BE169BC6F000F6FBAD /* 0_WG.jpg */; };
+		A67397C6169BC6F000F6FBAD /* 1_WG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67397BF169BC6F000F6FBAD /* 1_WG.jpg */; };
+		A68A89F816950068007812D0 /* Description.json in Resources */ = {isa = PBXBuildFile; fileRef = A68A89F716950068007812D0 /* Description.json */; };
+		A68A89FA16951CEB007812D0 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = A68A89F916951CEB007812D0 /* File.txt */; };
+		A6959931169E23AA009DC4B5 /* HNYCPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6959930169E23AA009DC4B5 /* HNYCPhotoViewController.m */; };
+		A6959935169E268E009DC4B5 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6959934169E268E009DC4B5 /* Cell.m */; };
+		A6959938169E2772009DC4B5 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = A6959937169E2772009DC4B5 /* CustomCellBackground.m */; };
+		A6B79B3E16B18E9B00E48081 /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B79B3D16B18E9B00E48081 /* Lock.png */; };
+		A6BFC79F177205DB002DD732 /* hNYC_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC79E177205DB002DD732 /* hNYC_launch.png */; };
+		A6BFC7A117720EE6002DD732 /* main screen hidden NYC copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7A017720EE6002DD732 /* main screen hidden NYC copy.png */; };
+		A6BFC7A3177212E2002DD732 /* search copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7A2177212E2002DD732 /* search copy.png */; };
+		A6BFC7A517721512002DD732 /* DISCOVER copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7A417721512002DD732 /* DISCOVER copy.png */; };
+		A6BFC7A7177216E1002DD732 /* unlockables copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7A6177216E1002DD732 /* unlockables copy.png */; };
+		A6BFC7A917721953002DD732 /* search copy-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7A817721953002DD732 /* search copy-1.png */; };
+		A6BFC7AB17721DD6002DD732 /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7AA17721DD6002DD732 /* favorites.png */; };
+		A6BFC7AF177222C1002DD732 /* unlockables.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7AC177222C1002DD732 /* unlockables.png */; };
+		A6BFC7B0177222C1002DD732 /* discover 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7AD177222C1002DD732 /* discover 2.png */; };
+		A6BFC7B1177222C1002DD732 /* search 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7AE177222C1002DD732 /* search 2.png */; };
+		A6BFC7B3177222E5002DD732 /* main screen hidden NYC 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BFC7B2177222E5002DD732 /* main screen hidden NYC 2.png */; };
+		A6E0960D1698C70D00FB8DB8 /* LocationBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E0960C1698C70D00FB8DB8 /* LocationBrain.m */; };
+		A6E096101698EE7E00FB8DB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E0960F1698EE7E00FB8DB8 /* MapKit.framework */; };
+		A6E096161698F21C00FB8DB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E096151698F21C00FB8DB8 /* CoreLocation.framework */; };
+		A6EDC67316AA2D5800F12CA6 /* HNYCFavoritesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EDC67216AA2D5800F12CA6 /* HNYCFavoritesVC.m */; };
+		A6F17B001690DE05009F597F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F17AFF1690DE05009F597F /* UIKit.framework */; };
+		A6F17B021690DE05009F597F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F17B011690DE05009F597F /* Foundation.framework */; };
+		A6F17B041690DE05009F597F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F17B031690DE05009F597F /* CoreGraphics.framework */; };
+		A6F17B0A1690DE05009F597F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F17B081690DE05009F597F /* InfoPlist.strings */; };
+		A6F17B0C1690DE05009F597F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F17B0B1690DE05009F597F /* main.m */; };
+		A6F17B101690DE05009F597F /* HNYCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F17B0F1690DE05009F597F /* HNYCAppDelegate.m */; };
+		A6F17B121690DE05009F597F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F17B111690DE05009F597F /* Default.png */; };
+		A6F17B141690DE06009F597F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F17B131690DE06009F597F /* Default@2x.png */; };
+		A6F17B161690DE06009F597F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F17B151690DE06009F597F /* Default-568h@2x.png */; };
+		A6F17B191690DE06009F597F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F17B171690DE06009F597F /* MainStoryboard_iPhone.storyboard */; };
+		A6F17B1C1690DE06009F597F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F17B1A1690DE06009F597F /* MainStoryboard_iPad.storyboard */; };
+		A6F17B1F1690DE06009F597F /* HNYCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F17B1E1690DE06009F597F /* HNYCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9299906316BDFDC7001E3449 /* empireState.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empireState.jpg; sourceTree = "<group>"; };
+		A60A513D169F70C3008020EA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A60A513E169F70C3008020EA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A652C4BC16A35299000312FA /* HNYCSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNYCSearchVC.h; sourceTree = "<group>"; };
+		A652C4BD16A35299000312FA /* HNYCSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNYCSearchVC.m; sourceTree = "<group>"; };
+		A65B32CE1697A05500B08910 /* HNYCDescriptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNYCDescriptionVC.h; sourceTree = "<group>"; };
+		A65B32CF1697A05500B08910 /* HNYCDescriptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNYCDescriptionVC.m; sourceTree = "<group>"; };
+		A67397B9169BC6F000F6FBAD /* 0_CKL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_CKL.jpg; sourceTree = "<group>"; };
+		A67397BA169BC6F000F6FBAD /* 1_CKL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_CKL.jpg; sourceTree = "<group>"; };
+		A67397BB169BC6F000F6FBAD /* 0_FT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_FT.jpg; sourceTree = "<group>"; };
+		A67397BC169BC6F000F6FBAD /* 1_FT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_FT.jpg; sourceTree = "<group>"; };
+		A67397BD169BC6F000F6FBAD /* 2_FT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_FT.jpg; sourceTree = "<group>"; };
+		A67397BE169BC6F000F6FBAD /* 0_WG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_WG.jpg; sourceTree = "<group>"; };
+		A67397BF169BC6F000F6FBAD /* 1_WG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_WG.jpg; sourceTree = "<group>"; };
+		A68A89F716950068007812D0 /* Description.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Description.json; sourceTree = "<group>"; };
+		A68A89F916951CEB007812D0 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		A695992F169E23AA009DC4B5 /* HNYCPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNYCPhotoViewController.h; sourceTree = "<group>"; };
+		A6959930169E23AA009DC4B5 /* HNYCPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNYCPhotoViewController.m; sourceTree = "<group>"; };
+		A6959933169E268E009DC4B5 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		A6959934169E268E009DC4B5 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		A6959936169E2772009DC4B5 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		A6959937169E2772009DC4B5 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		A6B79B3D16B18E9B00E48081 /* Lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lock.png; path = images/Lock.png; sourceTree = "<group>"; };
+		A6BFC79E177205DB002DD732 /* hNYC_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hNYC_launch.png; path = ../../../Downloads/hNYC_launch.png; sourceTree = "<group>"; };
+		A6BFC7A017720EE6002DD732 /* main screen hidden NYC copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "main screen hidden NYC copy.png"; path = "../../../Downloads/main screen hidden NYC copy.png"; sourceTree = "<group>"; };
+		A6BFC7A2177212E2002DD732 /* search copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search copy.png"; path = "../../../Downloads/search copy.png"; sourceTree = "<group>"; };
+		A6BFC7A417721512002DD732 /* DISCOVER copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DISCOVER copy.png"; path = "../../../Downloads/DISCOVER copy.png"; sourceTree = "<group>"; };
+		A6BFC7A6177216E1002DD732 /* unlockables copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "unlockables copy.png"; path = "../../../Downloads/unlockables copy.png"; sourceTree = "<group>"; };
+		A6BFC7A817721953002DD732 /* search copy-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search copy-1.png"; path = "../../../Downloads/search copy-1.png"; sourceTree = "<group>"; };
+		A6BFC7AA17721DD6002DD732 /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorites.png; path = ../../../Downloads/favorites.png; sourceTree = "<group>"; };
+		A6BFC7AC177222C1002DD732 /* unlockables.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unlockables.png; path = ../../../Downloads/unlockables.png; sourceTree = "<group>"; };
+		A6BFC7AD177222C1002DD732 /* discover 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "discover 2.png"; path = "../../../Downloads/discover 2.png"; sourceTree = "<group>"; };
+		A6BFC7AE177222C1002DD732 /* search 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search 2.png"; path = "../../../Downloads/search 2.png"; sourceTree = "<group>"; };
+		A6BFC7B2177222E5002DD732 /* main screen hidden NYC 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "main screen hidden NYC 2.png"; path = "../../../Downloads/main screen hidden NYC 2.png"; sourceTree = "<group>"; };
+		A6E0960B1698C70D00FB8DB8 /* LocationBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationBrain.h; sourceTree = "<group>"; };
+		A6E0960C1698C70D00FB8DB8 /* LocationBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationBrain.m; sourceTree = "<group>"; };
+		A6E0960F1698EE7E00FB8DB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A6E096151698F21C00FB8DB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6EDC67116AA2D5800F12CA6 /* HNYCFavoritesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNYCFavoritesVC.h; sourceTree = "<group>"; };
+		A6EDC67216AA2D5800F12CA6 /* HNYCFavoritesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNYCFavoritesVC.m; sourceTree = "<group>"; };
+		A6F17AFB1690DE05009F597F /* HiddenNYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenNYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F17AFF1690DE05009F597F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F17B011690DE05009F597F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F17B031690DE05009F597F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F17B071690DE05009F597F /* HiddenNYC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiddenNYC-Info.plist"; sourceTree = "<group>"; };
+		A6F17B091690DE05009F597F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F17B0B1690DE05009F597F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F17B0D1690DE05009F597F /* HiddenNYC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiddenNYC-Prefix.pch"; sourceTree = "<group>"; };
+		A6F17B0E1690DE05009F597F /* HNYCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNYCAppDelegate.h; sourceTree = "<group>"; };
+		A6F17B0F1690DE05009F597F /* HNYCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNYCAppDelegate.m; sourceTree = "<group>"; };
+		A6F17B111690DE05009F597F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A6F17B131690DE06009F597F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A6F17B151690DE06009F597F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A6F17B181690DE06009F597F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A6F17B1B1690DE06009F597F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A6F17B1D1690DE06009F597F /* HNYCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNYCViewController.h; sourceTree = "<group>"; };
+		A6F17B1E1690DE06009F597F /* HNYCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNYCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F17AF81690DE05009F597F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E096161698F21C00FB8DB8 /* CoreLocation.framework in Frameworks */,
+				A6E096101698EE7E00FB8DB8 /* MapKit.framework in Frameworks */,
+				A6F17B001690DE05009F597F /* UIKit.framework in Frameworks */,
+				A6F17B021690DE05009F597F /* Foundation.framework in Frameworks */,
+				A6F17B041690DE05009F597F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A652C4C316A378DE000312FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6BFC7B2177222E5002DD732 /* main screen hidden NYC 2.png */,
+				A6BFC7AC177222C1002DD732 /* unlockables.png */,
+				A6BFC7AD177222C1002DD732 /* discover 2.png */,
+				A6BFC7AE177222C1002DD732 /* search 2.png */,
+				A6BFC7AA17721DD6002DD732 /* favorites.png */,
+				A6BFC7A817721953002DD732 /* search copy-1.png */,
+				A6BFC7A6177216E1002DD732 /* unlockables copy.png */,
+				A6BFC7A417721512002DD732 /* DISCOVER copy.png */,
+				A6BFC7A2177212E2002DD732 /* search copy.png */,
+				A6BFC7A017720EE6002DD732 /* main screen hidden NYC copy.png */,
+				A6BFC79E177205DB002DD732 /* hNYC_launch.png */,
+				9299906316BDFDC7001E3449 /* empireState.jpg */,
+				A6B79B3D16B18E9B00E48081 /* Lock.png */,
+				A67397B9169BC6F000F6FBAD /* 0_CKL.jpg */,
+				A67397BA169BC6F000F6FBAD /* 1_CKL.jpg */,
+				A67397BB169BC6F000F6FBAD /* 0_FT.jpg */,
+				A67397BC169BC6F000F6FBAD /* 1_FT.jpg */,
+				A67397BD169BC6F000F6FBAD /* 2_FT.jpg */,
+				A67397BE169BC6F000F6FBAD /* 0_WG.jpg */,
+				A67397BF169BC6F000F6FBAD /* 1_WG.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A6959939169E32A8009DC4B5 /* UICollectionMethods */ = {
+			isa = PBXGroup;
+			children = (
+				A695992F169E23AA009DC4B5 /* HNYCPhotoViewController.h */,
+				A6959930169E23AA009DC4B5 /* HNYCPhotoViewController.m */,
+				A60A513D169F70C3008020EA /* DetailViewController.h */,
+				A60A513E169F70C3008020EA /* DetailViewController.m */,
+				A6959936169E2772009DC4B5 /* CustomCellBackground.h */,
+				A6959937169E2772009DC4B5 /* CustomCellBackground.m */,
+				A6959933169E268E009DC4B5 /* Cell.h */,
+				A6959934169E268E009DC4B5 /* Cell.m */,
+			);
+			name = UICollectionMethods;
+			sourceTree = "<group>";
+		};
+		A6F17AF01690DE05009F597F = {
+			isa = PBXGroup;
+			children = (
+				A6F17B051690DE05009F597F /* HiddenNYC */,
+				A6F17AFE1690DE05009F597F /* Frameworks */,
+				A6F17AFC1690DE05009F597F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F17AFC1690DE05009F597F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F17AFB1690DE05009F597F /* HiddenNYC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F17AFE1690DE05009F597F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E096151698F21C00FB8DB8 /* CoreLocation.framework */,
+				A6E0960F1698EE7E00FB8DB8 /* MapKit.framework */,
+				A6F17AFF1690DE05009F597F /* UIKit.framework */,
+				A6F17B011690DE05009F597F /* Foundation.framework */,
+				A6F17B031690DE05009F597F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F17B051690DE05009F597F /* HiddenNYC */ = {
+			isa = PBXGroup;
+			children = (
+				A6959939169E32A8009DC4B5 /* UICollectionMethods */,
+				A652C4BC16A35299000312FA /* HNYCSearchVC.h */,
+				A652C4BD16A35299000312FA /* HNYCSearchVC.m */,
+				A6EDC67116AA2D5800F12CA6 /* HNYCFavoritesVC.h */,
+				A6EDC67216AA2D5800F12CA6 /* HNYCFavoritesVC.m */,
+				A65B32CE1697A05500B08910 /* HNYCDescriptionVC.h */,
+				A65B32CF1697A05500B08910 /* HNYCDescriptionVC.m */,
+				A6F17B0E1690DE05009F597F /* HNYCAppDelegate.h */,
+				A6F17B0F1690DE05009F597F /* HNYCAppDelegate.m */,
+				A6F17B171690DE06009F597F /* MainStoryboard_iPhone.storyboard */,
+				A6F17B1A1690DE06009F597F /* MainStoryboard_iPad.storyboard */,
+				A6F17B1D1690DE06009F597F /* HNYCViewController.h */,
+				A6F17B1E1690DE06009F597F /* HNYCViewController.m */,
+				A6E0960B1698C70D00FB8DB8 /* LocationBrain.h */,
+				A6E0960C1698C70D00FB8DB8 /* LocationBrain.m */,
+				A6F17B061690DE05009F597F /* Supporting Files */,
+			);
+			path = HiddenNYC;
+			sourceTree = "<group>";
+		};
+		A6F17B061690DE05009F597F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A652C4C316A378DE000312FA /* Images */,
+				A6F17B071690DE05009F597F /* HiddenNYC-Info.plist */,
+				A6F17B081690DE05009F597F /* InfoPlist.strings */,
+				A6F17B0B1690DE05009F597F /* main.m */,
+				A6F17B0D1690DE05009F597F /* HiddenNYC-Prefix.pch */,
+				A6F17B111690DE05009F597F /* Default.png */,
+				A6F17B131690DE06009F597F /* Default@2x.png */,
+				A6F17B151690DE06009F597F /* Default-568h@2x.png */,
+				A68A89F716950068007812D0 /* Description.json */,
+				A68A89F916951CEB007812D0 /* File.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F17AFA1690DE05009F597F /* HiddenNYC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F17B221690DE06009F597F /* Build configuration list for PBXNativeTarget "HiddenNYC" */;
+			buildPhases = (
+				A6F17AF71690DE05009F597F /* Sources */,
+				A6F17AF81690DE05009F597F /* Frameworks */,
+				A6F17AF91690DE05009F597F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenNYC;
+			productName = HiddenNYC;
+			productReference = A6F17AFB1690DE05009F597F /* HiddenNYC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F17AF21690DE05009F597F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HNYC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = CISDD.axel;
+			};
+			buildConfigurationList = A6F17AF51690DE05009F597F /* Build configuration list for PBXProject "HiddenNYC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F17AF01690DE05009F597F;
+			productRefGroup = A6F17AFC1690DE05009F597F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F17AFA1690DE05009F597F /* HiddenNYC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F17AF91690DE05009F597F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F17B0A1690DE05009F597F /* InfoPlist.strings in Resources */,
+				A6F17B121690DE05009F597F /* Default.png in Resources */,
+				A6F17B141690DE06009F597F /* Default@2x.png in Resources */,
+				A6F17B161690DE06009F597F /* Default-568h@2x.png in Resources */,
+				A6F17B191690DE06009F597F /* MainStoryboard_iPhone.storyboard in Resources */,
+				A6F17B1C1690DE06009F597F /* MainStoryboard_iPad.storyboard in Resources */,
+				A68A89F816950068007812D0 /* Description.json in Resources */,
+				A68A89FA16951CEB007812D0 /* File.txt in Resources */,
+				A67397C0169BC6F000F6FBAD /* 0_CKL.jpg in Resources */,
+				A67397C1169BC6F000F6FBAD /* 1_CKL.jpg in Resources */,
+				A67397C2169BC6F000F6FBAD /* 0_FT.jpg in Resources */,
+				A67397C3169BC6F000F6FBAD /* 1_FT.jpg in Resources */,
+				A67397C4169BC6F000F6FBAD /* 2_FT.jpg in Resources */,
+				A67397C5169BC6F000F6FBAD /* 0_WG.jpg in Resources */,
+				A67397C6169BC6F000F6FBAD /* 1_WG.jpg in Resources */,
+				A6B79B3E16B18E9B00E48081 /* Lock.png in Resources */,
+				9299906416BDFDC7001E3449 /* empireState.jpg in Resources */,
+				A6BFC79F177205DB002DD732 /* hNYC_launch.png in Resources */,
+				A6BFC7A117720EE6002DD732 /* main screen hidden NYC copy.png in Resources */,
+				A6BFC7A3177212E2002DD732 /* search copy.png in Resources */,
+				A6BFC7A517721512002DD732 /* DISCOVER copy.png in Resources */,
+				A6BFC7A7177216E1002DD732 /* unlockables copy.png in Resources */,
+				A6BFC7A917721953002DD732 /* search copy-1.png in Resources */,
+				A6BFC7AB17721DD6002DD732 /* favorites.png in Resources */,
+				A6BFC7AF177222C1002DD732 /* unlockables.png in Resources */,
+				A6BFC7B0177222C1002DD732 /* discover 2.png in Resources */,
+				A6BFC7B1177222C1002DD732 /* search 2.png in Resources */,
+				A6BFC7B3177222E5002DD732 /* main screen hidden NYC 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F17AF71690DE05009F597F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F17B0C1690DE05009F597F /* main.m in Sources */,
+				A6F17B101690DE05009F597F /* HNYCAppDelegate.m in Sources */,
+				A6F17B1F1690DE06009F597F /* HNYCViewController.m in Sources */,
+				A65B32D01697A05500B08910 /* HNYCDescriptionVC.m in Sources */,
+				A6E0960D1698C70D00FB8DB8 /* LocationBrain.m in Sources */,
+				A6959931169E23AA009DC4B5 /* HNYCPhotoViewController.m in Sources */,
+				A6959935169E268E009DC4B5 /* Cell.m in Sources */,
+				A6959938169E2772009DC4B5 /* CustomCellBackground.m in Sources */,
+				A60A513F169F70C3008020EA /* DetailViewController.m in Sources */,
+				A652C4BE16A35299000312FA /* HNYCSearchVC.m in Sources */,
+				A6EDC67316AA2D5800F12CA6 /* HNYCFavoritesVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F17B081690DE05009F597F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F17B091690DE05009F597F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F17B171690DE06009F597F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F17B181690DE06009F597F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6F17B1A1690DE06009F597F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F17B1B1690DE06009F597F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F17B201690DE06009F597F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F17B211690DE06009F597F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F17B231690DE06009F597F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenNYC/HiddenNYC-Prefix.pch";
+				INFOPLIST_FILE = "HiddenNYC/HiddenNYC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F17B241690DE06009F597F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenNYC/HiddenNYC-Prefix.pch";
+				INFOPLIST_FILE = "HiddenNYC/HiddenNYC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F17AF51690DE05009F597F /* Build configuration list for PBXProject "HiddenNYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F17B201690DE06009F597F /* Debug */,
+				A6F17B211690DE06009F597F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F17B221690DE06009F597F /* Build configuration list for PBXNativeTarget "HiddenNYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F17B231690DE06009F597F /* Debug */,
+				A6F17B241690DE06009F597F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F17AF21690DE05009F597F /* Project object */;
+}

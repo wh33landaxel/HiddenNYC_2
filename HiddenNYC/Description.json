@@ -1,0 +1,88 @@
+{
+        "125th St and Riverside Park, Manhattan, NY" : {
+            "name" : "FreedomTunnel",
+            "filterLocation": "Uptown",
+            "phoneNum": "No landline to this tunnel",
+            "description" : " Brave urban explorers likely band together before venturing to this (literally) underground (and probably illegal) venue.  Between the 70s and 90s, many homeless people seeking to escape the sweltering heat, bitter cold and thieves/junkies of the city shelters headed underground to the unused subway tunnels.  Most of these shantytowns were driven out during Mayor Giuliani’s term.  In the 2000 award-winning documentary “Dark Days”, journalist Mark Singer lived among his subjects for months in a shantytown called the Freedom Tunnel, which runs adjacent to Riverside Park from 125th Street to Penn Station.  The shantytown has since been demolished, but the tunnel remains. If you dare, beware of discarded needles, Amtrak trains that hurtle by and rough characters.  You’ll see archaeological remnants from the old shantytowns and some of the best graffiti in the city, including that of Chris “Freedom” Pape for whom the tunnel is named." ,
+            "address": "125th St and Riverside Park, Manhattan, NY" ,
+            "imageTag" : "_FT" ,
+            "numImages" : 3
+        } ,
+        "Grand Central Station, Manhattan, NY" : {
+            "name" : "Whispering Gallery",
+            "filterLocation": "Midtown",
+            "phoneNum" : "None",
+            "description" : "Just outside the Oyster Bar restaurant, three corridors merge under a tiled archway. If two people stand facing the pillars that are diagonally across from each other, even the softest whisper can be heard at the receiving end, 40 feet away, in this bustling station.  It is believed that this architectural oddity must have been intentional, but the mystery of why still remains." ,
+            "address": "Grand Central Station, Manhattan, NY" ,
+            "imageTag" : "_WG" ,
+            "numImages" : 2
+
+        } ,
+    "203 East 10th Street,Manhattan, NY" : {
+        "name" : "Chickalicious",
+        "filterLocation": "Downtown",
+        "phoneNum" : "212-995-9511",
+        "description" : "Located in the East Village, this restaurant serves only dessert, in a three-course, $12 prix fixe meal.  It begins with an “amuse bouche” and finishes with petit fours.  For the main course you can choose among the half-dozen gourmet dessert plates, served with side dishes of ice cream and garnishes. Wine or coffee/tea can be added for $7 or $3.50 respectively." ,
+        "address" : "203 East 10th Street,Manhattan, NY" ,
+        "imageTag" : "_CKL" ,
+        "numImages" : 2
+    } ,
+    "Columbus Park: Mulberry, Worth, Cross, Baxter and Little Water" : {
+        "name" : "Five Points",
+        "filterLocation": "Downtown",
+        "phoneNum" : "None",
+        "description" : "The epicenter of the worst slum in Western history. It began as a large pond used by American Indians.  When it was drained in the 1820s, the land began to sink, the wealthy moved out, and the neighborhood declined with accumulating garbage, manure and urine. By 1932, 100 people died of typhoid-infected water every day. Thugs would pass out menus of violence for sale, ranging from $5 for a sliced-off ear, to $100 for murder.  Prostitution and alcoholism flourished.By the 1890s, the area was converted to a park, and is now a grassy retreat in Chinatown.",
+        "address" : "Columbus Park: Mulberry, Worth, Cross, Baxter and Little Water",
+        "imageTag" : "_FP",
+        "numImages" : 2
+    } ,
+    "326 Spring Street" : {
+        "name" : "The Ear Inn",
+        "filterLocation" : "Downtown",
+        "phoneNum" : "212-226-9060",
+        "description" : "Originally built in 1817 by James Brown, a black aide to George Washington.  It has served as a home, a brewery, a speakeasy during Prohibition, a boarding house, smuggler’s den, and a brothel.  Around 1900 it became a restaurant.  In 1977, the new resident owners changed the “B” to an “E” to avoid waiting for city approval of a new sign.  This is one of the best preserved Federal houses left in the city.  The bottles above the bar were all dug out of the basement below the dining room. ",
+        "address" :  "326 Spring Street",
+        "imageTag" : "_EI",
+        "numImages" : 2
+    } ,
+    "Chatham Square  Catherine and Division St, Manhattan, NY" : {
+        "name" : "Confucius Plaza",
+        "filterLocation" : "Downtown",
+        "phoneNum": "None" ,
+        "description" : "See the statue honoring the Chinese philosopher. Look for the Chase Bankto your left on Doyers Street and follow its curve. Legend has it that the street was originally buil at an angle to throw off straight-flying ghosts. Around 1900,it was known as “Bloody Angle” for the Chinese gang wars that took place here. On early mornings, the localshopkeepers mopped up the river of blood that flowed onto Bowery Street.",
+        "address" : "Chatham Square  Catherine and Division St, Manhattan, NY",
+        "imageTag" : "_CS",
+        "numImages" : 2
+    } ,
+    
+    "Museum of Jewish History 36 Battery Place, Manhattan, NY" : {
+        "name" : "Museum of Jewish History",
+        "filterLocation" : "Downtown",
+        "phoneNum" : "None",
+        "description" : "A contemplative space dedicated to the memory of those who perished in the Holocaust and honor those who survived. Eighteen enormous boulders placed close together, weighing between 3-13 tons, have been hollowed out and filled with earth and tiny oak saplings. The treesare expected to grow twelve feet tall within a few decades. The sculptures represent the Jewish tradition of placing stones on a gravesite to let the deceased know that someone had visited. The number 18 corresponds to the Hebrew letter “chai”, which translates to “life”.",
+        "address" : "Museum of Jewish History 36 Battery Place, Manhattan, NY",
+        "imageTag" : "_JH",
+        "numImages" : 2
+    } ,
+    
+    "St. Clements Theatre 423 West 46th Street, Manhattan, NY" : {
+        "name" : "Monday Night Magic",
+        "filterLocation" : "Midtown",
+        "phoneNum":  "212-615-6432",
+        "description" : "The only regular magic show in town, Monday Night Magic features liveperformers every Monday night at 8PM. A different group of magicians perform mystifying feats of escape, strength, and illusion as well as card tricks, juggling and comedy.",
+        "address" : "St. Clements Theatre 423 West 46th Street, Manhattan, NY" ,
+        "imageTag" : "_CT",
+        "numImages" : 2
+        
+    },
+    "275 Church Street, Manhattan, NY" : {
+        "name" : "The Dream House",
+        "filterLocation":  "Downtown",
+        "phoneNum" : "212-925-8270",
+        "description" : "The Dream House is a radical sound and light environment, collaborated bycomposer La Monte Young and visual artist Marian Zazeela. In the moodily lit, modest space, you are enveloped by loud, continuous waves of high and low frequencies that ricochet through your chest and invade your brain. The throbbing never-ending harmonies are supported by an abstract magenta light installation, sending all of your senses into overdrive. Even slight movements of the spectators seem to change the sound frequencies dramatically. Young has claimed that the twelve-tone harmonic technique he employs at the Dream House reveals magicalfrequencies never before heard by the human ear.",
+        "address":  "275 Church Street, Manhattan, NY",
+        "imageTag" : "_DH",
+        "numImages" : 2
+    }
+    
+}
